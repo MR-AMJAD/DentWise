@@ -1,0 +1,8 @@
+# Tested with Python 3.11 and the versions below.
+numpy>=1.24,<2        # tested 1.26.4
+scipy>=1.11           # tested 1.17.1
+opencv-python-headless>=4.8   # tested 4.13
+pandas>=2.0           # tested 3.0.2
+matplotlib>=3.8       # tested 3.10.9 (figures only)
+# Optional, only to recompute the point-spread functions of the physics simulator (physim/psf.py):
+# PyMUST==0.1.9
