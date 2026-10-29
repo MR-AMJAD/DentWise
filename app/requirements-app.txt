@@ -1,0 +1,18 @@
+# Additional packages for the acquisition software in app/ (on top of ../requirements.txt).
+# Whisper also needs ffmpeg on the PATH. Install PyQt6 instead of PyQt5 if preferred.
+# The window (gui_pyqt6.py) works with opencv-python-headless; running live_unified.py on its own (OpenCV windows)
+# needs opencv-python instead.
+PyQt5
+tensorflow
+torch
+openai-whisper
+SpeechRecognition
+pyaudio
+openpyxl
+pynput
+pyserial
+bleak
+# voice fine-tuning (finetune_whisper.py)
+torchaudio
+soundfile
+audiomentations
